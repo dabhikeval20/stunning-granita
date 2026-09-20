@@ -1,0 +1,15 @@
+{
+  "name": "stunning-granita-mern-clone",
+  "version": "1.0.0",
+  "description": "DZ Infotech MERN Stack Clone",
+  "main": "server/index.js",
+  "scripts": {
+    "server": "node server/index.js",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "npm run build --prefix client"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
