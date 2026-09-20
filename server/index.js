@@ -59,14 +59,17 @@ app.get('/api/contact/requests', (req, res) => {
   });
 });
 
-// Serve Client Static Build Files (MERN Single Port Integration)
-const clientDistPath = path.join(__dirname, '../client/dist');
-app.use(express.static(clientDistPath));
+// Standalone execution check
+if (require.main === module) {
+  const clientDistPath = path.join(__dirname, '../client/dist');
+  app.use(express.static(clientDistPath));
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(clientDistPath, 'index.html'));
+  });
 
-app.get('*', (req, res) => {
-  res.sendFile(path.join(clientDistPath, 'index.html'));
-});
+  app.listen(PORT, () => {
+    console.log(`DZ Infotech MERN Server running on http://localhost:${PORT}`);
+  });
+}
 
-app.listen(PORT, () => {
-  console.log(`DZ Infotech MERN Server running on http://localhost:${PORT}`);
-});
+module.exports = app;
