@@ -13,7 +13,7 @@ const consultationRequests = [];
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', message: 'DZ Infotech API Server is running' });
+  res.json({ status: 'ok', message: 'Dhanlaxmi API Server is running' });
 });
 
 // Contact / Consultation Form Submission Endpoint
@@ -68,7 +68,7 @@ if (require.main === module) {
   });
 
   app.listen(PORT, () => {
-    console.log(`DZ Infotech MERN Server running on http://localhost:${PORT}`);
+    console.log(`Dhanlaxmi MERN Server running on http://localhost:${PORT}`);
   });
 }
 

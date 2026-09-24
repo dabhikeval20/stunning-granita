@@ -6,10 +6,10 @@ export default function Footer() {
       <div className="footer-main">
         <div className="footer-brand">
           <a href="#" className="nav-logo">
-            <div className="nav-logo-icon">SM</div>
+            <div className="nav-logo-icon">DL</div>
             <div className="nav-logo-text">
-              <strong>DZ Infotech</strong>
-              <span>Est. 2003 · Bhavnagar, Gujarat</span>
+              <strong>Dhanlaxmi</strong>
+              <span>Est. 2003 · Surat, Gujarat</span>
             </div>
           </a>
           <p>
@@ -42,7 +42,7 @@ export default function Footer() {
       </div>
 
       <div className="disclaimer-box">
-        <strong>Regulatory Disclosures:</strong> DZ Infotech is an IRDA licensed insurance advisor and AMFI
+        <strong>Regulatory Disclosures:</strong> Dhanlaxmi is an IRDA licensed insurance advisor and AMFI
         registered Mutual Fund Distributor (ARN Registered). Insurance is the subject matter of solicitation. Mutual Fund
         investments are subject to market risks — please read all scheme-related documents carefully before investing.
         Past performance is not indicative of future results. The information provided on this website is for general
@@ -51,7 +51,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p className="footer-copy">© 2024 DZ Infotech, Bhavnagar. All rights reserved.</p>
+        <p className="footer-copy">© 2024 Dhanlaxmi, Surat. All rights reserved.</p>
         <p className="footer-copy" style={{ color: 'var(--gold-light)', opacity: 1 }}>
           Your Future, Our Expertise — Growth · Trust · Success
         </p>

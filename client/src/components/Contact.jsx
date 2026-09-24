@@ -76,7 +76,7 @@ export default function Contact() {
               <div className="contact-item-icon">📍</div>
               <div className="contact-item-text">
                 <strong>Office Address</strong>
-                <span>DZ Infotech, Bhavnagar, Gujarat, India</span>
+                <span>Dhanlaxmi, Surat, Gujarat, India</span>
               </div>
             </div>
             <div className="contact-item reveal">
@@ -90,7 +90,7 @@ export default function Contact() {
               <div className="contact-item-icon">✉️</div>
               <div className="contact-item-text">
                 <strong>Email</strong>
-                <span>info@dzinfotech.in</span>
+                <span>info@dhanlaxmi.in</span>
               </div>
             </div>
             <div className="contact-item reveal">

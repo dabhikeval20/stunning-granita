@@ -21,10 +21,10 @@ export default function Navbar() {
     <>
       <nav id="navbar" className={scrolled ? 'scrolled' : ''}>
         <a href="#" className="nav-logo">
-          <div className="nav-logo-icon">SM</div>
+          <div className="nav-logo-icon">DL</div>
           <div className="nav-logo-text">
-            <strong>DZ Infotech</strong>
-            <span>Est. 2003 · Bhavnagar, Gujarat</span>
+            <strong>Dhanlaxmi</strong>
+            <span>Est. 2003 · Surat, Gujarat</span>
           </div>
         </a>
         <ul className="nav-links">

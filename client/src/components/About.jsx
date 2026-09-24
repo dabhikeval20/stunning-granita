@@ -8,8 +8,8 @@ export default function About() {
           <div className="about-img-container">
             <div style={{ textAlign: 'center', padding: '40px 20px' }}>
               <div style={{ fontSize: '48px', marginBottom: '16px' }}>🏛️</div>
-              <h3 style={{ fontSize: '24px', color: 'var(--gold-light)' }}>DZ Infotech Headquarters</h3>
-              <p style={{ fontSize: '14px', color: 'rgba(255,255,255,0.7)', marginTop: '8px' }}>Bhavnagar & Surat, Gujarat</p>
+              <h3 style={{ fontSize: '24px', color: 'var(--gold-light)' }}>Dhanlaxmi Headquarters</h3>
+              <p style={{ fontSize: '14px', color: 'rgba(255,255,255,0.7)', marginTop: '8px' }}>Surat, Gujarat</p>
             </div>
           </div>
           <div className="about-years-badge">
@@ -24,9 +24,9 @@ export default function About() {
 
         <div className="about-content">
           <div className="section-tag reveal">Who We Are</div>
-          <h2 className="section-title reveal">Bhavnagar's Most Trusted<br />Financial Partner</h2>
+          <h2 className="section-title reveal">Surat's Most Trusted<br />Financial Partner</h2>
           <p className="about-desc reveal">
-            Based in <strong>Bhavnagar, Gujarat</strong>, DZ Infotech has been providing expert insurance and
+            Based in <strong>Surat, Gujarat</strong>, Dhanlaxmi has been providing expert insurance and
             investment solutions since <strong>2003</strong>. As an <strong>MDRT Achiever</strong>, we specialize in life
             insurance, mediclaim, mutual funds, motor insurance, PMS, AIF, tax-saving strategies, retirement planning, and
             NRI-focused investments.
@@ -69,7 +69,7 @@ export default function About() {
 
           <div className="about-mission reveal">
             <p>"Your future, our expertise — growth, trust, success together. We don't just manage money; we nurture financial journeys, one family at a time."</p>
-            <cite>— DZ Infotech, Bhavnagar · Est. 2003</cite>
+            <cite>— Dhanlaxmi, Surat · Est. 2003</cite>
           </div>
         </div>
       </div>

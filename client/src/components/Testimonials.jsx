@@ -5,13 +5,13 @@ const testimonials = [
     avatar: 'RD',
     name: 'Rajesh Desai',
     detail: 'Diamond Merchant, Surat · Client since 2017',
-    text: 'I had been putting off financial planning for years. DZ sir sat with me for two hours, understood my goals, and designed a complete plan — SIP, term insurance, and a retirement corpus. Today, 7 years later, my portfolio has grown beautifully. The guidance was genuinely life-changing.'
+    text: 'I had been putting off financial planning for years. Dhanlaxmi advisor sat with me for two hours, understood my goals, and designed a complete plan — SIP, term insurance, and a retirement corpus. Today, 7 years later, my portfolio has grown beautifully. The guidance was genuinely life-changing.'
   },
   {
     avatar: 'PM',
     name: 'Priya Mehta',
     detail: 'NRI Client, London UK · Client since 2019',
-    text: 'As an NRI in the UK, finding a reliable financial advisor in India was always my worry. DZ Infotech sorted my NRI investments, repatriation-friendly insurance, and tax planning — all remotely and flawlessly. They feel like a trusted family advisor, not just an agent.'
+    text: 'As an NRI in the UK, finding a reliable financial advisor in India was always my worry. Dhanlaxmi sorted my NRI investments, repatriation-friendly insurance, and tax planning — all remotely and flawlessly. They feel like a trusted family advisor, not just an agent.'
   },
   {
     avatar: 'NK',
