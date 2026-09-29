@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import CustomCursor from './components/CustomCursor';
 import ScrollProgressBar from './components/ScrollProgressBar';
 import ParticleBackground from './components/ParticleBackground';
 import Navbar from './components/Navbar';
@@ -36,7 +35,6 @@ export default function App() {
   return (
     <div className="app-container">
       <ParticleBackground />
-      <CustomCursor />
       <ScrollProgressBar />
       <Navbar />
       <Hero />
@@ -51,3 +49,4 @@ export default function App() {
     </div>
   );
 }
+
